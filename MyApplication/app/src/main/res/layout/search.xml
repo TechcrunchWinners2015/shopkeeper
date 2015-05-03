@@ -11,6 +11,5 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Searching For Beacons"
         android:id="@+id/textView"
-        android:layout_weight="0.12"
-        android:textSize="20dp" />
+        android:layout_weight="0.12" />
 </LinearLayout>

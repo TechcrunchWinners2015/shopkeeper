@@ -1,35 +1,21 @@
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/opening"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:weightSum="1"
-    android:id="@+id/"
-    android:rowCount="41"
-    android:columnCount="1">
-
-    <TableLayout
-        android:layout_width="fill_parent"
-        android:layout_height="452dp"
-        android:id="@+id/"
-        android:layout_gravity="center_vertical|bottom"
-        android:layout_weight="29.21"
-        android:layout_marginTop="30dp"
-        android:layout_row="40"
-        android:layout_column="0"
-        android:layout_marginLeft="380dp"
-        android:layout_rowWeight="3"></TableLayout>
-
-    <ImageButton
-        android:layout_width="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_row="12"
-        android:layout_column="0"
-        android:layout_rowSpan="13"
-        android:background=" "
-        android:src="@android:drawable/ic_input_add"
-        android:layout_gravity="right|top"
-        android:layout_rowWeight="1" />
+        android:text="Searching for beacons..." />
 
-</GridLayout>
+    <Button
+        android:layout_width="348dp"
+        android:layout_height="match_parent"
+        android:id="@+id/button2" />
+
+</LinearLayout>
